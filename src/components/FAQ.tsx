@@ -13,33 +13,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "Is the AI-VERSE free?",
+    answer: "Yes. It is a free to use for everyone.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "What is AI-VERSE?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Imagine a powerful coding companion that helps you learn faster, understand concepts deeper, and practice coding in a realistic way. That's AI-VERSE! Visit our website to see how it can transform your coding journey.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+      "What specific problems does AI-VERSE solve for coders",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "AI-VERSE can help in problems like #1.Struggling to understand complex code. #2.Difficulty in identifying errors and solutions. #3.Preperation for interview scenarios.",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Is AI-VERSE suitable for beginners or more experienced coders?",
+    answer: "AI-VERSE is designed for coders of all levels!  Beginners can leverage features like code generation and explanation, while experienced coders can benefit from code review, interview practice, and faster development.",
     value: "item-4",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+      "Does AI-VERSE replace the need for human teachers?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "AI-VERSE empowers both students and educators. It provides personalized learning experiences while freeing teachers for more focused guidance. Learn more about the perfect duo on our website!",
     value: "item-5",
   },
 ];
