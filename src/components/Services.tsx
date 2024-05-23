@@ -10,21 +10,39 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Code Generator",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Bypass boilerplate code generation and delve into core principles. Generate high-quality code samples in seconds, accelerating your learning odyssey.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Code Explainer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Effortlessly decipher complex code. AI Explainer unlocks understanding with clear explanations, fueling your coding mastery.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Code Documentor",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "AI-VERSE creates comprehensive Markdown docs for your code, freeing you to focus on what matters most - coding!",
+    icon: <MagnifierIcon />,
+  },
+  {
+    title: "Code Debugger",
+    description:
+      "AI-VERSE pinpoints vulnerabilities with precision, enabling students to hone their critical thinking and problem-solving skills.",
+    icon: <MagnifierIcon />,
+  },
+  {
+    title: "Code Reviewer",
+    description:
+      "Get personalized code feedback at scale. Leverage advanced AI to pinpoint areas for improvement, fast-tracking your coding proficiency.",
+    icon: <MagnifierIcon />,
+  },
+  {
+    title: "AI-Interviewer",
+    description:
+      "Conquer coding interviews with our AI simulator. Practice real-world scenarios, refine your responses, and boost your confidence.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -42,8 +60,7 @@ export const Services = () => {
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+          Enter a totally new world with AI and the promise of coding adventure.
           </p>
 
           <div className="flex flex-col gap-8">
@@ -67,7 +84,7 @@ export const Services = () => {
 
         <img
           src={cubeLeg}
-          className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
+          className="w-[500px] md:w-[700px] lg:w-[800px] object-contain"
           alt="About services"
         />
       </div>

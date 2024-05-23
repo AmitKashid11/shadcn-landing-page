@@ -57,7 +57,7 @@ export const Navbar = () => {
             >
               {/* <LogoIcon /> */}
               <Orbit />
-               AI-VERSE
+              {" "}AI-VERSE
             </a>
           </NavigationMenuItem>
 
@@ -81,7 +81,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                  AI-VERSE
+                  {" "}AI-VERSE
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">

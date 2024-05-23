@@ -16,46 +16,46 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
-    image: "https://github.com/shadcn.png",
+    image: "https://images.freeimages.com/images/large-previews/765/yin-yang-symbol-1-1159880.jpg",
     name: "John Doe React",
-    userName: "@john_Doe",
+    userName: "@Ak47",
     comment: "This landing page is awesome!",
   },
   {
-    image: "https://github.com/shadcn.png",
+    image: "https://tse1.mm.bing.net/th?id=OIP.R3BjyoNT_SMz5muV6ngr5gHaHa&pid=Api&P=0&h=220",
     name: "John Doe React",
-    userName: "@john_Doe1",
+    userName: "@DarkSketch",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "Code Generater of AI-VERSE does not directly gave me code ,instead it lead me to write code through hints and direction.Thanks AI-VERSE.",
   },
 
   {
-    image: "https://github.com/shadcn.png",
+    image: "https://e7.pngegg.com/pngimages/731/1018/png-clipart-gold-colored-and-black-aztec-calendar-maya-civilization-aztec-calendar-stone-mayan-calendar-civilization-culture-calendar.png",
     name: "John Doe React",
-    userName: "@john_Doe2",
+    userName: "@Abhya",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "Each feature I see in AI-VERSE is a demand of industry now a days, & worked exactly to my expectation. Good work, Keep going.",
   },
   {
-    image: "https://github.com/shadcn.png",
+    image: "https://thumbs.dreamstime.com/b/dreamcatcher-icon-simple-vector-dream-catcher-tribal-feather-239241911.jpg",
     name: "John Doe React",
-    userName: "@john_Doe3",
+    userName: "@CodeR3d",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "@All use that AI-Interviewer, it's really awesome. It can detect every emotion you go through during real deal..!",
   },
   {
-    image: "https://github.com/shadcn.png",
+    image: "https://tse3.mm.bing.net/th?id=OIP._XMS4u7UOzFhxz00lzm0EwHaHa&pid=Api&P=0&h=220",
     name: "John Doe React",
-    userName: "@john_Doe4",
+    userName: "@Xavier",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      " That Code Explainer pinpointed areas for improvement in my problem-solving approach and code explanation skills. Real work. ",
   },
   {
-    image: "https://github.com/shadcn.png",
+    image: "https://tse1.mm.bing.net/th?id=OIP.G32zf9n__MD5imYhxwzThQHaHa&pid=Api&P=0&h=220",
     name: "John Doe React",
-    userName: "@john_Doe5",
+    userName: "@X4V1N",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "AI-VERSE is a powerful tool that can benefit coders of all levels. Whether you're a student, educator, or professional, AI-VERSE can help you improve your coding skills and achieve your coding goals.",
   },
 ];
 
@@ -66,17 +66,15 @@ export const Testimonials = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold">
-        Discover Why
+        Discover What People Say About
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          People Love{" "}
+          AI-VERSE
         </span>
-        This Landing Page
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
+      Explore testimonials and discover how AI-VERSE empowers coders of all levels.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
