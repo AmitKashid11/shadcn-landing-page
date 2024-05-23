@@ -49,7 +49,7 @@ export const Sponsors = () => {
             className="flex items-center gap-1 text-muted-foreground/60"
           >
             <span>{icon}</span>
-            <h3 className="text-xl  font-bold">{name}</h3>
+            <h3 className="text-xl text-primary font-bold">{name}</h3>
           </div>
         ))}
       </div>
