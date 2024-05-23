@@ -40,7 +40,8 @@ export const HeroCards = () => {
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
           <img
-            src="https://i.pinimg.com/originals/80/6f/2e/806f2e5a37455f5c3ec942dc7cc72737.jpg"
+            src="https://wallpapercave.com/wp/wp6397677.jpg"
+            // src="https://i.pinimg.com/originals/80/6f/2e/806f2e5a37455f5c3ec942dc7cc72737.jpg"
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
