@@ -24,7 +24,7 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
+    imageUrl: "https://wallpapercave.com/wp/wp11416304.png",
     name: "Aman Kadam",
     position: "Lead Developer",
     comment:"Ensuring the seamless integration of cutting-edge AI technologies in AI-VERSE.",
@@ -42,7 +42,7 @@ const teamList: TeamProps[] = [
     
   },
   {
-    imageUrl: "https://drive.google.com/file/d/1M-SC8pLz4P7tjMrqmmgJKlktdLKdImxm/view?usp=sharing",
+    imageUrl: "https://wallpapercave.com/wp/wp8067816.jpg",
     name: "Amit Kashid",
     position: "Tech Lead",
     comment:"Turning complex problems into elegant solutions, one line of code at a time.",
@@ -59,7 +59,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
+    imageUrl: "https://wallpapercave.com/wp/wp13673463.jpg",
     name: "Abhishek Sarkale",
     position: "Frontend Developer",
     comment:"Bringing designs to life with clean and efficient code.",
@@ -73,7 +73,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
+    imageUrl: "https://wallpapercave.com/wp/wp13415830.jpg",
     name: "Arbaj Pathan",
     position: "Resource Manager",
     comment:"Connecting our vision with our audience through impactful campaigns.",
