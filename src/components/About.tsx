@@ -1,4 +1,4 @@
-import { Statistics } from "./Statistics";
+// import { Statistics } from "./Statistics";
 import pilot from "../assets/pilot.png";
 
 export const About = () => {
@@ -20,18 +20,19 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Company
+                AI-VERSE
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+              <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+                AI_VERSE{" "}
+              </span> is an innovative platform that transforms coding education by leveraging the advanced Llama 3 model. 
+              With features like code generation, intelligent bug detection, and AI-Interviewer it empowers students to learn efficiently. 
+              Our user-friendly interface and personalized learning paths make mastering programming intuitive and engaging, 
+              positioning AI-VERSE as a key tool for developing future tech talent
               </p>
             </div>
 
-            <Statistics />
+            {/* <Statistics /> */}
           </div>
         </div>
       </div>

@@ -16,7 +16,8 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
+// import { LogoIcon } from "./Icons";
+import { Orbit } from 'lucide-react';
 
 interface RouteProps {
   href: string;
@@ -32,10 +33,10 @@ const routeList: RouteProps[] = [
     href: "#testimonials",
     label: "Testimonials",
   },
-  {
-    href: "#pricing",
-    label: "Pricing",
-  },
+  // {
+  //   href: "#pricing",
+  //   label: "Pricing",
+  // },
   {
     href: "#faq",
     label: "FAQ",
@@ -54,8 +55,9 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <LogoIcon />
-              ShadcnUI/React
+              {/* <LogoIcon /> */}
+              <Orbit />
+               AI-VERSE
             </a>
           </NavigationMenuItem>
 
@@ -79,7 +81,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Shadcn/React
+                  AI-VERSE
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
@@ -129,7 +131,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://github.com/AmanKadam-16/ai-verse"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >

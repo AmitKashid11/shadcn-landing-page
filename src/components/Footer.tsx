@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            ShadcnUI/React
+            AI-VERSE
           </a>
         </div>
 
@@ -45,7 +45,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              LinkedIn
             </a>
           </div>
         </div>
@@ -144,7 +144,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Twitch
+              Gmail
             </a>
           </div>
         </div>
@@ -156,10 +156,10 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://github.com/leoMirandaa"
+            href="https://ai-verse-4.vercel.app/"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            AI-VERSE & Team
           </a>
         </h3>
       </section>

@@ -8,28 +8,28 @@ interface SponsorProps {
 const sponsors: SponsorProps[] = [
   {
     icon: <Radar size={34} />,
-    name: "Sponsor 1",
+    name: "Aadi Technology",
   },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 2",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 3",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 4",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 5",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 6",
-  },
+  // {
+  //   icon: <Radar size={34} />,
+  //   name: "Sponsor 2",
+  // },
+  // {
+  //   icon: <Radar size={34} />,
+  //   name: "Sponsor 3",
+  // },
+  // {
+  //   icon: <Radar size={34} />,
+  //   name: "Sponsor 4",
+  // },
+  // {
+  //   icon: <Radar size={34} />,
+  //   name: "Sponsor 5",
+  // },
+  // {
+  //   icon: <Radar size={34} />,
+  //   name: "Sponsor 6",
+  // },
 ];
 
 export const Sponsors = () => {

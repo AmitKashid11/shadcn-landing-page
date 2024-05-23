@@ -10,9 +10,9 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Advanced AI Integration",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Experience the power of AI with our integration of the cutting-edge LLaMA 3 model, enhancing every interaction.",
   },
   {
     icon: <MapIcon />,
@@ -28,9 +28,9 @@ const features: FeatureProps[] = [
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "User-Centric Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Navigate effortlessly with our intuitive interface, designed to prioritize your learning and development needs.",
   },
 ];
 

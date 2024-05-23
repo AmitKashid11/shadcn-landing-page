@@ -28,8 +28,8 @@ function App() {
       <Cta />
       <Testimonials />
       <Team />
-      <Pricing />
-      <Newsletter />
+      {/* <Pricing />
+      <Newsletter /> */}
       <FAQ />
       <Footer />
       <ScrollToTop />

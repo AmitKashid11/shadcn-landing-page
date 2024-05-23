@@ -29,31 +29,31 @@ export const HeroCards = () => {
 
           <div className="flex flex-col">
             <CardTitle className="text-lg">John Doe React</CardTitle>
-            <CardDescription>@john_doe</CardDescription>
+            <CardDescription>@AK</CardDescription>
           </div>
         </CardHeader>
 
-        <CardContent>This landing page is awesome!</CardContent>
+        <CardContent>AI features are game-changing!</CardContent>
       </Card>
 
       {/* Team */}
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
           <img
-            src="https://i.pravatar.cc/150?img=58"
+            src="https://i.pinimg.com/originals/80/6f/2e/806f2e5a37455f5c3ec942dc7cc72737.jpg"
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Leo Miranda</CardTitle>
+          <CardTitle className="text-center">AI-VERSE</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Frontend Developer
+          Developer Highlight
           </CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            I really enjoy transforming ideas into functional software that
-            exceeds expectations
+          Pushing the boundaries of what's possible with AI,
+          we are passionate about integrating advanced technology into everyday learning.
           </p>
         </CardContent>
 
@@ -61,7 +61,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="https://github.com/AmanKadam-16/ai-verse"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -71,7 +71,7 @@ export const HeroCards = () => {
               <span className="sr-only">Github icon</span>
               <GitHubLogoIcon className="w-5 h-5" />
             </a>
-            <a
+            {/* <a
               rel="noreferrer noopener"
               href="https://twitter.com/leo_mirand4"
               target="_blank"
@@ -90,7 +90,7 @@ export const HeroCards = () => {
                 <title>X</title>
                 <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
               </svg>
-            </a>
+            </a> */}
 
             <a
               rel="noreferrer noopener"
@@ -113,12 +113,15 @@ export const HeroCards = () => {
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
             Free
+            <a href="">
             <Badge
               variant="secondary"
               className="text-sm text-primary"
             >
               Most popular
             </Badge>
+            </a>
+            
           </CardTitle>
           <div>
             <span className="text-3xl font-bold">$0</span>
@@ -126,19 +129,24 @@ export const HeroCards = () => {
           </div>
 
           <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+          Begin your journey with AI-VERSE for free! Experience our core features without any cost.
           </CardDescription>
         </CardHeader>
 
         <CardContent>
+          <a href="https://ai-verse-4.vercel.app/"
+            rel="noreferrer noopener"
+            target="_blank">
           <Button className="w-full">Start Free Trial</Button>
+          </a>
+          
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["4 Team member", "4 GB Storage", "Upto 6 pages"].map(
+            {["4 Team member"].map(
               (benefit: string) => (
                 <span
                   key={benefit}
@@ -160,10 +168,9 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Light & dark mode</CardTitle>
+            <CardTitle>Light & Dark Mode</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+            Effortlessly switch between light and dark modes for comfort.
             </CardDescription>
           </div>
         </CardHeader>
