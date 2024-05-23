@@ -22,7 +22,7 @@ export const HeroCards = () => {
           <Avatar>
             <AvatarImage
               alt=""
-              src="https://github.com/shadcn.png"
+              src="https://image.freepik.com/free-vector/ai-futuristic-technology-background_53876-97391.jpg"
             />
             <AvatarFallback>SH</AvatarFallback>
           </Avatar>
