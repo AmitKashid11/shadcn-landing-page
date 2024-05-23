@@ -20,19 +20,19 @@ const features: FeatureProps[] = [
   {
     title: "Responsive Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Adapts seamlessly to all devices, ensuring an optimal coding experience on desktop, tablet, or mobile.",
     image: image4,
   },
   {
     title: "Intuitive user interface",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Navigate effortlessly with our streamlined, user-friendly design, enhancing your coding journey with ease and efficiency.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "AI-Powered Features",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "With each feature build your-self industry ready candidate.",
     image: image,
   },
 ];
@@ -62,7 +62,7 @@ export const Features = () => {
         </span>
       </h2>
 
-      <div className="flex flex-wrap md:justify-center gap-4">
+      {/* <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
           <div key={feature}>
             <Badge
@@ -73,7 +73,7 @@ export const Features = () => {
             </Badge>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map(({ title, description, image }: FeatureProps) => (

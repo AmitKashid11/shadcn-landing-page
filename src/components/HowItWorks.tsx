@@ -10,21 +10,21 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Advanced AI Integration",
+    title: "Accessibility",
     description:
-      "Experience the power of AI with our integration of the cutting-edge LLaMA 3 model, enhancing every interaction.",
+      "AI-VERSE makes coding accessible to everyone, regardless of their skill level. Dive into an intuitive learning experience designed to empower you.",
   },
   {
     icon: <MapIcon />,
     title: "Community",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Connect with fellow learners, share your experiences, and get help from mentors. Collaborate and grow together.",
   },
   {
     icon: <PlaneIcon />,
     title: "Scalability",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Whether you’re a beginner or an expert, our scalable learning paths ensure that you always have new challenges to conquer. Expand your skills with us.",
   },
   {
     icon: <GiftIcon />,
@@ -48,8 +48,7 @@ export const HowItWorks = () => {
         Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+      Revolutionizing coding journey with personalized, interactive, and AI-driven learning experiences
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
