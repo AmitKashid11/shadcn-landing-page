@@ -13,6 +13,7 @@ interface TeamProps {
   imageUrl: string;
   name: string;
   position: string;
+  comment: string;
   socialNetworks: SociaNetworkslProps[];
 }
 
@@ -24,59 +25,64 @@ interface SociaNetworkslProps {
 const teamList: TeamProps[] = [
   {
     imageUrl: "https://i.pravatar.cc/150?img=35",
-    name: "Emma Smith",
-    position: "Product Manager",
+    name: "Aman Kadam",
+    position: "Lead Developer",
+    comment:"Ensuring the seamless integration of cutting-edge AI technologies in AI-VERSE.",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
+      // {
+      //   name: "Facebook",
+      //   url: "https://www.facebook.com/",
+      // },
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/",
+      // },
     ],
+    
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "John Doe",
+    imageUrl: "https://drive.google.com/file/d/1M-SC8pLz4P7tjMrqmmgJKlktdLKdImxm/view?usp=sharing",
+    name: "Amit Kashid",
     position: "Tech Lead",
+    comment:"Turning complex problems into elegant solutions, one line of code at a time.",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/amit-kashid-738aab297/" },
+      // {
+      //   name: "Facebook",
+      //   url: "https://www.facebook.com/",
+      // },
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/",
+      // },
     ],
   },
   {
     imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
+    name: "Abhishek Sarkale",
     position: "Frontend Developer",
+    comment:"Bringing designs to life with clean and efficient code.",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
+      // {
+      //   name: "Instagram",
+      //   url: "https://www.instagram.com/",
+      // },
     ],
   },
   {
     imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
+    name: "Arbaj Pathan",
+    position: "Resource Manager",
+    comment:"Connecting our vision with our audience through impactful campaigns.",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
+      // {
+      //   name: "Facebook",
+      //   url: "https://www.facebook.com/",
+      // },
     ],
   },
 ];
@@ -108,13 +114,12 @@ export const Team = () => {
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+      We are AI-VERSE - a team of developers, researchers, and enthusiasts working hand-in-hand to shape the future of learning.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
         {teamList.map(
-          ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+          ({ imageUrl, name, position,comment, socialNetworks }: TeamProps) => (
             <Card
               key={name}
               className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
@@ -132,7 +137,7 @@ export const Team = () => {
               </CardHeader>
 
               <CardContent className="text-center pb-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>{comment}</p>
               </CardContent>
 
               <CardFooter>
