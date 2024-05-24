@@ -1,5 +1,5 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
-import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
+import {  GenerationIcon, ExplainerIcon, DocumetationIcon, DebuggerIcon, ReviewerIcon, InterviewerIcon } from "./Icons";
 import cubeLeg from "../assets/cube-leg.png";
 
 interface ServiceProps {
@@ -13,37 +13,37 @@ const serviceList: ServiceProps[] = [
     title: "Code Generator",
     description:
       "Bypass boilerplate code generation and delve into core principles. Generate high-quality code samples in seconds, accelerating your learning odyssey.",
-    icon: <ChartIcon />,
+    icon: <GenerationIcon />,
   },
   {
     title: "Code Explainer",
     description:
       "Effortlessly decipher complex code. AI Explainer unlocks understanding with clear explanations, fueling your coding mastery.",
-    icon: <WalletIcon />,
+    icon: <ExplainerIcon />,
   },
   {
     title: "Code Documentor",
     description:
       "AI-VERSE creates comprehensive Markdown docs for your code, freeing you to focus on what matters most - coding!",
-    icon: <MagnifierIcon />,
+    icon: <DocumetationIcon />,
   },
   {
     title: "Code Debugger",
     description:
       "AI-VERSE pinpoints vulnerabilities with precision, enabling students to hone their critical thinking and problem-solving skills.",
-    icon: <MagnifierIcon />,
+    icon: <DebuggerIcon />,
   },
   {
     title: "Code Reviewer",
     description:
       "Get personalized code feedback at scale. Leverage advanced AI to pinpoint areas for improvement, fast-tracking your coding proficiency.",
-    icon: <MagnifierIcon />,
+    icon: <ReviewerIcon />,
   },
   {
     title: "AI-Interviewer",
     description:
       "Conquer coding interviews with our AI simulator. Practice real-world scenarios, refine your responses, and boost your confidence.",
-    icon: <MagnifierIcon />,
+    icon: <InterviewerIcon />,
   },
 ];
 

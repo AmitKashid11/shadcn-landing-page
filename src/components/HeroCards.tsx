@@ -28,7 +28,7 @@ export const HeroCards = () => {
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
+            <CardTitle className="text-lg">Tyler Durden</CardTitle>
             <CardDescription>@AK</CardDescription>
           </div>
         </CardHeader>

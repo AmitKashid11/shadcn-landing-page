@@ -59,7 +59,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://wallpapercave.com/wp/wp13673463.jpg",
+    imageUrl: "https://wallpapercave.com/wp/wp9327712.png",
     name: "Abhishek Sarkale",
     position: "Frontend Developer",
     comment:"Bringing designs to life with clean and efficient code.",
@@ -73,7 +73,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://wallpapercave.com/wp/wp13415830.jpg",
+    imageUrl: "https://wallpapercave.com/wp/wp12867003.jpg",
     name: "Arbaj Pathan",
     position: "Resource Manager",
     comment:"Connecting our vision with our audience through impactful campaigns.",
